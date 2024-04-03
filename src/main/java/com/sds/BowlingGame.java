@@ -6,7 +6,7 @@ import java.util.List;
 public class BowlingGame {
     private final List<Integer> rolls;
 
-    BowlingGame() {
+    public BowlingGame() {
         rolls = new ArrayList<>();
     }
 

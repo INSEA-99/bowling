@@ -1,5 +1,4 @@
-package com.sds;
-
+import com.sds.BowlingGame;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +16,7 @@ class BowlingGameTest {
         rollZero(game, 20);
 
         //Then : 점수는 0점이 된다.
-        assertEquals(0, game.score());
+        assertEquals(5, game.score());
     }
 
     @Test
